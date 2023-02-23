@@ -11,6 +11,9 @@ vim.keymap.set("n", "<F3>", ":lua require('dap').step_out()<CR>", { noremap = tr
 
 vim.keymap.set("n", "<Leader>dt", ":lua require('dap').terminate()<CR>", { noremap = true, silent = true })
 
+--------------------------------- Jest Tests ---------------------------------
+vim.keymap.set("n", "<Leader>rt", ":TestNearest<CR>", { noremap = true, silent = true })
+
 -- vim.keymap.set({ "n", "<Leader>dsc", ":lua require('dap').continue()<CR>" })
 -- vim.keymap.set({ "n", "<Leader>dsv", ":lua require('dap').step_over()<CR>" })
 -- vim.keymap.set({ "n", "<Leader>dsi", ":lua require('dap').step_into()<CR>" })
